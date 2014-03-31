@@ -1,0 +1,26 @@
+
+/*------------------------------------------------------------------------------
+HT Post Widget Styles
+These can be over-ridden if you want to further customise the widget
+------------------------------------------------------------------------------*/
+
+.HT_Posts_Widget_Plugin .attachment-post-thumbnail, .HT_Posts_Widget_Plugin .widget-entry-thumb{
+	float: left;
+	margin-right: 10px;
+}
+
+.HT_Posts_Widget_Plugin ul li{
+	list-style: none;
+}
+
+.HT_Posts_Widget_Plugin .widget-entry-title {
+	font-size: 16px;
+}
+
+.HT_Posts_Widget_Plugin i{
+	margin-right: 5px;
+}
+
+.HT_Posts_Widget_Plugin p{
+	font-size: 80%;
+}
