@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Heroic Posts Widget is a simple widget for displaying post links at various points accross your site.
+Heroic Posts Widget is a simple widget for displaying post links at various points across your site.
 
 == Description ==
 
