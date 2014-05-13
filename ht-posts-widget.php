@@ -2,7 +2,7 @@
 /*
 *	Plugin Name: Heroic Posts Widget
 *	Plugin URI:  http://wordpress.org/plugins/hero-themes-posts-widget
-*	Description: 
+*	Description: A posts widget for WordPress
 *	Author: Hero Themes
 *	Version: 1.0
 *	Author URI: http://www.herothemes.com/
@@ -187,10 +187,15 @@ if(!class_exists('HT_Posts_Widget_Plugin')){
     $defaults = array(
       'title' => 'Latest Posts',
       'num' => '5',
-      'sort_by' => '',
-      'asc_sort_order' => '',
+      'sort_by' => 'date',
+      'asc_sort_order' => 0,
       'exclude' => '',
-      'category' => 'all'
+      'date' => 0,
+      'comment_num' => 0,
+      'excerpt' => 0,
+      'category' => 'all',
+      'thumb' => 0,
+
     );
     $instance = wp_parse_args( (array) $instance, $defaults );
 
