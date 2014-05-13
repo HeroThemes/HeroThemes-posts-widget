@@ -298,7 +298,7 @@ if(!class_exists('HT_Posts_Widget_Plugin')){
 	<?php if ( function_exists('the_post_thumbnail') && current_theme_supports("post-thumbnails") ) : ?>
 	<p>
 	  <label for="<?php echo $this->get_field_id('thumb'); ?>">
-	    <input type="checkbox" <?php echo $thumb; ?> class="checkbox" id="<?php echo $this->get_field_id('thumb'); ?>" name="<?php echo $this->get_field_name('thumb'); ?>"<?php checked( (bool) $instance["thumb"], true ); ?> />
+	    <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id('thumb'); ?>" name="<?php echo $this->get_field_name('thumb'); ?>"<?php checked( (bool) $instance["thumb"], true ); ?> />
 	    <?php _e( 'Show post thumbnail', 'ht-posts-widget' ); ?>
 	  </label>
 	</p>
