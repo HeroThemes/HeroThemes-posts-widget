@@ -2,7 +2,7 @@
 Contributors: herothemes
 Tags: posts, widget, recent, post
 Requires at least: 3.5
-Tested up to: 3.8.1
+Tested up to: 4.1
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,7 @@ Heroic Posts Widget is a simple widget for displaying post links at various poin
 
 == Description ==
 
-Allows the display of posts in a simple widget
+A simple widget for displaying posts in widgetized areas of your site
 
 
 == Installation ==
