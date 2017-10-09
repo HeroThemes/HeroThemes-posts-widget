@@ -3,9 +3,9 @@
 *	Plugin Name: Heroic Posts Widget
 *	Plugin URI:  http://wordpress.org/plugins/heroic-posts-widget/
 *	Description: A posts widget for WordPress
-*	Author: Hero Themes
-*	Version: 1.1
-*	Author URI: http://www.herothemes.com/
+*	Author: HeroThemes
+*	Version: 1.2
+*	Author URI: https://www.herothemes.com/
 *	Text Domain: ht-posts-widget
 */
 
